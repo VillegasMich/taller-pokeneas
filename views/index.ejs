@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokenea Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    img {
+      max-width: 400px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .host {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pokenea Viewer</h1>
+  <img src="<%= image %>" alt="Pokenea Image">
+  <div class="host">Frase: <%= frase %></div>
+  <div class="host">Hosted by: <%= host %></div>
+</body>
+</html>
+
