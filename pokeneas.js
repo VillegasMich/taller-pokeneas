@@ -6,7 +6,7 @@ export const pokeneas = [
     nombre: "JBalvix",
     altura: 1.78,
     habilidad: "Reggaetón cósmico",
-    imagen: "/images/jbalvin.jpg",
+    imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/jbalvin.jpg",
     fraseFilosofica: "La vibra es lo más importante en el viaje.",
     host: os.hostname()
   },
@@ -15,7 +15,7 @@ export const pokeneas = [
     nombre: "Karolix",
     altura: 1.60,
     habilidad: "Flow de fuego",
-    imagen: "/images/karolg.png",
+    imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/karolg.png",
     fraseFilosofica: "Bichota se nace, no se hace.",
     host: os.hostname()
 
@@ -25,7 +25,7 @@ export const pokeneas = [
     nombre: "Malumx",
     altura: 1.75,
     habilidad: "Balada paralizante",
-    imagen: "/images/maluma.jpg",
+    imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/maluma.jpg",
     fraseFilosofica: "Cada nota es un pedazo del alma.",
     host: os.hostname()
   },
@@ -34,7 +34,7 @@ export const pokeneas = [
     nombre: "Feidsour",
     altura: 1.76,
     habilidad: "Pop encantador",
-    imagen: "/images/feid.jpg",
+    imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/feid.jpg",
     fraseFilosofica: "En el amor, todos somos aprendices eternos.",
     host: os.hostname()
   },
@@ -43,7 +43,7 @@ export const pokeneas = [
     nombre: "Farukón",
     altura: 1.85,
     habilidad: "Trap dimensional",
-    imagen: "/images/farruko.jpg",
+    imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/farruko.jpg",
     fraseFilosofica: "El respeto se gana con actitud, no con gritos.",
     host: os.hostname()
   }
