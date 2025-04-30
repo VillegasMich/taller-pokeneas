@@ -46,5 +46,41 @@ export const pokeneas = [
     imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/farruko.jpg",
     fraseFilosofica: "El respeto se gana con actitud, no con gritos.",
     host: os.hostname()
-  }
+  },
+  {
+    id: 6,
+    nombre: "BadBunnix",
+    altura: 1.80,
+    habilidad: "Conejo supersónico",
+    imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/badbunny.jpg",
+    fraseFilosofica: "Si no te hace feliz, suéltalo sin miedo.",
+    host: os.hostname()
+  },
+  {
+    id: 7,
+    nombre: "Daddyyankix",
+    altura: 1.70,
+    habilidad: "Gasolina infinita",
+    imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/daddyyankee.jpg",
+    fraseFilosofica: "El éxito es constancia con ritmo.",
+    host: os.hostname()
+  },
+  {
+    id: 8,
+    nombre: "Ozuñax",
+    altura: 1.65,
+    habilidad: "Melodía lunar",
+    imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/ozuna.jpg",
+    fraseFilosofica: "Brillar no es opción, es destino.",
+    host: os.hostname()
+  },
+  {
+    id: 9,
+    nombre: "Rauwalex",
+    altura: 1.73,
+    habilidad: "Danza gravitatoria",
+    imagen: "https://pokeneas-image.s3.us-east-1.amazonaws.com/rauwalejandro.jpg",
+    fraseFilosofica: "El movimiento es la voz del corazón.",
+    host: os.hostname()
+  },
 ];
