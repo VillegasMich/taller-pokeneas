@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -23,4 +23,4 @@ jobs:
         run: docker build . --file Dockerfile --tag mvasquezb999/taller-neas:latest
 
       - name: Docker Push
-        run: docker push mvasquezb999/taller-neas:latest
+        run: docker push mvasquezb999/taller-neas
