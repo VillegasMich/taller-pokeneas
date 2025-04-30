@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 import { pokeRouter } from './src/routes/routes.js'
 
 dotenv.config()
-const port = process.env.PORT || 3000
+const port = 80
 const app = express()
 app.use(express.json())
 app.use('/', pokeRouter)
