@@ -1,4 +1,4 @@
-import { pokeneas } from './pokeneas.js'
+import { pokeneas } from '../constants/pokeneas.js'
 
 const getOneInfo = (_req, res) => {
   const number = Math.floor(Math.random() * pokeneas.length)
